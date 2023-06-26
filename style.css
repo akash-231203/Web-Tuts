@@ -1,0 +1,9 @@
+body {
+    background: red;
+    color: antiquewhite;
+}
+
+a {
+    text-decoration: line-through;
+    color: aliceblue;
+}
