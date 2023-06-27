@@ -1,4 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    display: flex;
+    height: 50dvh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: red;
     color: antiquewhite;
 }
@@ -6,4 +16,20 @@ body {
 a {
     text-decoration: line-through;
     color: lime;
+}
+
+div.fst#unq {
+    padding: 20px;
+    margin: 10px;
+    height: 50px;
+    width: 160px;
+    color: aqua;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    cursor: col-resize;
+    background: #2c8f21;
+    border: 2px dotted #00d9fffd;
+    border-radius: 100%;
 }
